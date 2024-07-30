@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Bienvenue sur notre site, <%= @user.first_name %>!</h1>
+    <p>
+      Merci de vous être inscrit.
+      <br>
+      Vous pouvez vous connecter via <%= link_to 'ce lien', @url %>.
+    </p>
+  </body>
+</html>
